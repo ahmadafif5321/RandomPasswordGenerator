@@ -1,1 +1,1 @@
-web: basicPasswordGen.py
+web: FlaskPassGen.py
