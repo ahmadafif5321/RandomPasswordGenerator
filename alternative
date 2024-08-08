@@ -1,0 +1,17 @@
+import random
+import string
+
+def generate_random_password(length=12):
+    # Define the characters that can be used in the password
+    characters = string.ascii_letters + string.digits + string.punctuation
+    
+    # Initialize an empty string for the password
+    password = ''
+    
+    # Loop through the desired length, picking a random character each time
+    for i in range(length):
+        random_character = random.choice(characters)  # Choose a random character from the available characters
+        password += random_character  # Add the chosen character to the password
+    
+    # Return the generated password
+    return password
