@@ -15,3 +15,5 @@ def generate_random_password(length=12):
     
     # Return the generated password
     return password
+
+print(generate_random_password())
